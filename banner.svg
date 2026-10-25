@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="turbogizzmo — build log. Systems engineer and independent builder.">
+  <defs>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#ffffff" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow" cx="0.82" cy="0.35" r="0.55">
+      <stop offset="0" stop-color="#e39a52" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#e39a52" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="300" rx="16" fill="#0d1013"/>
+  <rect width="1200" height="300" rx="16" fill="url(#grid)"/>
+  <rect width="1200" height="300" rx="16" fill="url(#glow)"/>
+
+  <!-- copper traces -->
+  <g fill="none" stroke="#e39a52" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.75">
+    <path d="M780 40H900L940 80H1120"/>
+    <path d="M820 120H960L990 150H1160"/>
+    <path d="M760 200H880L920 240H1080"/>
+    <path d="M1000 80V56H1060"/>
+  </g>
+  <g fill="#0d1013" stroke="#e39a52" stroke-width="2">
+    <circle cx="780" cy="40" r="5"/><circle cx="1120" cy="80" r="5"/>
+    <circle cx="820" cy="120" r="5"/><circle cx="1160" cy="150" r="5"/>
+    <circle cx="760" cy="200" r="5"/><circle cx="1080" cy="240" r="5"/>
+    <circle cx="1060" cy="56" r="5"/>
+  </g>
+  <!-- signal pads -->
+  <g fill="#4fd1c0">
+    <circle cx="990" cy="150" r="6"/>
+    <circle cx="940" cy="80" r="4"/>
+    <circle cx="920" cy="240" r="4"/>
+  </g>
+
+  <!-- brand -->
+  <circle cx="72" cy="104" r="9" fill="#4fd1c0"/>
+  <circle cx="72" cy="104" r="15" fill="none" stroke="#4fd1c0" stroke-opacity="0.25" stroke-width="6"/>
+  <text x="100" y="120" font-family="'IBM Plex Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="52" font-weight="600" fill="#eef1f3">turbogizzmo</text>
+  <text x="104" y="156" font-family="'IBM Plex Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="20" fill="#6b7682">// build log</text>
+
+  <line x1="60" y1="198" x2="90" y2="198" stroke="#e39a52" stroke-width="2"/>
+  <text x="102" y="204" font-family="'IBM Plex Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="16" letter-spacing="2.4" fill="#e39a52">SYSTEMS ENGINEER &amp; INDEPENDENT BUILDER</text>
+  <text x="60" y="244" font-family="'IBM Plex Sans', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" fill="#9aa6b2">Tools, networks, and oddities that keep businesses and homes running.</text>
+</svg>
