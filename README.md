@@ -25,8 +25,13 @@ Most of my work happens on client networks and private workbenches. This profile
 | | |
 |---|---|
 | **[LocalBooks](https://github.com/turbogizzmo/LocalBooks)** · [live ↗](https://turbogizzmo.github.io/LocalBooks/)<br>Local-first double-entry accounting for small businesses. Your books live in one SQLite file on your machine. No cloud, no account.<br>`Rust` `Tauri` `React` `SQLite` | **[Wave Exit](https://github.com/turbogizzmo/wave-exit)** · [live ↗](https://turbogizzmo.github.io/wave-exit/)<br>Desktop app for accountants to pull a business's books out of Wave Accounting as archives, Excel workbooks, PDF packs, and import files.<br>`TypeScript` `Tauri` |
-| **[Plexonauts](https://github.com/turbogizzmo/plexonauts)**<br><a href="https://github.com/turbogizzmo/plexonauts"><img src="https://turbogizzmo.github.io/portfolio/media/plexonauts.jpg" alt="Plexonauts screenshot" width="100%"></a><br>A live Plex activity room: everyone on the server is an astronaut in a retro movie theater, seated at whatever they're streaming.<br>`Python` `JavaScript` `WebSockets` | **[wyze-bridge-unifi](https://github.com/turbogizzmo/wyze-bridge-unifi)**<br>Bridges Wyze cameras into UniFi Protect over ONVIF, keeping the Python + ONVIF path that upstream projects abandoned alive.<br>`Python` `Docker` `ONVIF` |
+| **[Plexonauts](https://github.com/turbogizzmo/plexonauts)**<br>A live Plex activity room: everyone on the server is an astronaut in a retro movie theater, seated at whatever they're streaming.<br>`Python` `JavaScript` `WebSockets` | **[wyze-bridge-unifi](https://github.com/turbogizzmo/wyze-bridge-unifi)**<br>Bridges Wyze cameras into UniFi Protect over ONVIF, keeping the Python + ONVIF path that upstream projects abandoned alive.<br>`Python` `Docker` `ONVIF` |
 | **[Aruba Instant On · HA](https://github.com/turbogizzmo/ArubaInstantOnPortalHA)**<br>Read-only Home Assistant integration for cloud-managed Aruba Instant On sites: clients, networks, and site health as entities.<br>`Python` `Home Assistant` | **[Synology Chat+](https://github.com/turbogizzmo/synology-chatplus-desktop-OSX)**<br>A native macOS desktop client for Synology Chat. A nicer front end than the stock web app.<br>`Rust` |
+
+<p align="center">
+  <a href="https://github.com/turbogizzmo/plexonauts"><img src="https://turbogizzmo.github.io/portfolio/media/plexonauts.jpg" alt="Plexonauts: Plex viewers as astronauts in a retro movie theater" width="640"></a>
+  <br><sub>Plexonauts: everyone on the Plex server, live, as astronauts in a retro movie theater</sub>
+</p>
 
 <p align="center"><a href="https://turbogizzmo.github.io/portfolio/"><b>→ Full build log: 35+ projects across products, games, retro rebuilds, network, IoT, and civic tools</b></a></p>
 
